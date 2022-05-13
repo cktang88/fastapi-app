@@ -15,17 +15,21 @@ repos:
         language: python
         types: [python]
         args: ["--line-length=120"]
+        files: ^project/app
   - repo: https://github.com/pycqa/isort
     rev: 5.10.1
     hooks:
       - id: isort
         name: isort (python)
+        files: ^project/app
   - repo: https://github.com/pycqa/flake8
     rev: 4.0.1
     hooks:
       - id: flake8
         args: ["--ignore=E501"]
+        files: ^project/app
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: "v0.950"
     hooks:
       - id: mypy
+        files: ^project/app

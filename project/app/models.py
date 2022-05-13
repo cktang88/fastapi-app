@@ -1,6 +1,6 @@
 from typing import Optional
 
-from sqlmodel import SQLModel, Field
+from sqlmodel import Field, SQLModel
 
 
 class SongBase(SQLModel):
@@ -9,7 +9,7 @@ class SongBase(SQLModel):
     year: Optional[int] = None
 
 
-class Song(SongBase, table=True):
+class Song(SongBase, table=True):  # type: ignore
     id: int = Field(default=None, primary_key=True)
 
 
