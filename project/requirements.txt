@@ -1,5 +1,6 @@
 alembic~=1.7
 asyncpg~=0.25
+celery~=5.2
 fastapi~=0.77
 redis~=4.3
 requests~=2.27
