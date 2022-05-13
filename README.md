@@ -6,11 +6,12 @@ FastAPI, Pydantic, async SQLAlchemy, SQLModel, Postgres, Alembic, and Docker.
 
 Celery (with Redis 7)
 
-## Want to learn how to build this?
+## TODO:
 
-Check out the [post](https://testdriven.io/blog/fastapi-sqlmodel/).
+- add Pytest
+- add complex Pydantic models w/ computed props
 
-## Want to use this project?
+## Run:
 
 ```sh
 $ docker-compose up -d --build
