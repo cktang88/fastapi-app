@@ -1,5 +1,7 @@
 alembic~=1.7
 asyncpg~=0.25
 fastapi~=0.77
+redis~=4.3
+requests~=2.27
 sqlmodel~=0.0.6
 uvicorn~=0.17

@@ -1,8 +1,10 @@
 # FastAPI proj
 
-Originally from https://github.com/testdrivenio/fastapi-sqlmodel-alembic
+Originally from [fastapi-sqlmodel-alembic](https://github.com/testdrivenio/fastapi-sqlmodel-alembic) and [fastapi-celery](https://github.com/testdrivenio/fastapi-celery)
 
 FastAPI, Pydantic, async SQLAlchemy, SQLModel, Postgres, Alembic, and Docker.
+
+Celery (with Redis 7)
 
 ## Want to learn how to build this?
 
